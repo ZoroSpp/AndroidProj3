@@ -8,7 +8,7 @@
     app:layoutDescription="@xml/activity_main_scene"
     tools:context=".MainActivity">
 
-    <androidx.constraintlayout.motion.widget.MotionLayout
+    <RelativeLayout
         android:id="@+id/appBarLayout2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -20,12 +20,9 @@
             android:layout_width="437dp"
             android:layout_height="119dp"
             android:background="?attr/colorPrimary"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
             app:popupTheme="@style/Theme.My1stApplication.PopupOverlay" />
 
-    </androidx.constraintlayout.motion.widget.MotionLayout>
+    </RelativeLayout>
 
     <include
         android:id="@+id/include2"
